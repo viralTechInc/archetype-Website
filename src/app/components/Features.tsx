@@ -1,50 +1,56 @@
-import { Brain, Layers, Compass, Users, BookOpen, Sparkles } from 'lucide-react';
+import { Brain, Moon, Heart, MapPinned, Star, Hand } from 'lucide-react';
 
 export function Features() {
   const features = [
     {
       icon: Brain,
-      title: "Cognitive Architecture",
-      description: "Understand the invisible patterns of how you process information, make decisions, and perceive reality itself."
+      title: 'Your Mind',
+      description:
+        'Identity triad, dominant traits, radar chart across 11 dimensions, and the defense mechanism you don\'t realize you\'re using.',
     },
     {
-      icon: Layers,
-      title: "Shadow Integration",
-      description: "Explore the unconscious realms — hidden aspects of your psyche that whisper beneath the surface of awareness."
+      icon: Moon,
+      title: 'Your Shadow',
+      description:
+        'The version of you that emerges under stress — named, explained, and traced back to the wound where it started.',
     },
     {
-      icon: Compass,
-      title: "Life Design Framework",
-      description: "Align your environment, relationships, and sacred work with your authentic psychological structure."
+      icon: Heart,
+      title: 'Your Heart',
+      description:
+        'How you love, what you need, your attachment style, conflict pattern, and the role you play in every relationship.',
     },
     {
-      icon: Users,
-      title: "Compatibility Analysis",
-      description: "Deep relational alchemy based on cognitive function dynamics, energetic resonance, and attachment patterns."
+      icon: MapPinned,
+      title: 'Your Path',
+      description:
+        'Life purpose, growth edge, hidden superpower, and career archetype — what you\'re here to do and what\'s been holding you back.',
     },
     {
-      icon: BookOpen,
-      title: "Growth Pathways",
-      description: "Personalized evolution roadmap based on your type's natural trajectory toward wholeness and integration."
+      icon: Star,
+      title: 'Your Stars',
+      description:
+        'Western, Chinese, and Vedic astrology calculated from your birth data and woven into your archetype — not generic horoscopes.',
     },
     {
-      icon: Sparkles,
-      title: "Archetype Mapping",
-      description: "Discover which ancient archetypes live within your psyche and how they dance together in the depths."
-    }
+      icon: Hand,
+      title: 'Your Palm',
+      description:
+        'AI reads your palm photo — life line, heart line, head line, fate line, hand shape, finger analysis, and mounts. 7 readings total.',
+    },
   ];
 
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[#050402]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 space-y-4">
-          <div 
+          <div
             className="text-sm tracking-[0.3em] text-gold-dim uppercase"
             style={{ fontFamily: 'var(--font-body)' }}
           >
-            What's Inside
+            What&apos;s Inside
           </div>
-          <h2 
+          <h2
             className="text-4xl sm:text-5xl"
             style={{ fontFamily: 'var(--font-headline)' }}
           >
@@ -56,20 +62,20 @@ export function Features() {
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <div 
+              <div
                 key={index}
                 className="group border-t-2 border-transparent hover:border-gold-primary pt-8 px-6 transition-all duration-500"
               >
                 <div className="mb-6">
                   <Icon className="w-12 h-12 text-gold-primary" strokeWidth={1.5} />
                 </div>
-                <h3 
+                <h3
                   className="text-2xl mb-4"
                   style={{ fontFamily: 'var(--font-headline)' }}
                 >
                   {feature.title}
                 </h3>
-                <p 
+                <p
                   className="text-foreground/70 leading-relaxed"
                   style={{ fontFamily: 'var(--font-subheading)' }}
                 >

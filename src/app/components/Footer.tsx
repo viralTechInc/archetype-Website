@@ -40,7 +40,7 @@ export function Footer() {
         </div>
         
         <div className="text-sm text-foreground/50" style={{ fontFamily: 'var(--font-body)' }}>
-          © 2026 Archetype. All rights reserved.
+          © 2026 Viral Tech Inc. All rights reserved.
         </div>
       </div>
     </footer>

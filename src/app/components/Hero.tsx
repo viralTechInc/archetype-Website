@@ -1,15 +1,6 @@
-import { useState } from 'react';
 import phoneImage from '@/assets/heroImagePhone.png';
 
 export function Hero() {
-  const [email, setEmail] = useState('');
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Email submitted:', email);
-    setEmail('');
-  };
-
   return (
     <section className="relative min-h-screen flex items-center px-4 sm:px-6 lg:px-8 pt-32 pb-24">
       <div className="max-w-7xl mx-auto w-full">
@@ -21,7 +12,7 @@ export function Hero() {
               className="text-sm tracking-[0.3em] text-gold-light uppercase"
               style={{ fontFamily: 'var(--font-body)' }}
             >
-              Discover Your Psychological Blueprint
+              Discover Your Identity Blueprint
             </p>
 
             {/* Hero headline */}
@@ -29,7 +20,9 @@ export function Hero() {
               className="text-5xl sm:text-6xl lg:text-7xl leading-tight animate-fade-in"
               style={{ fontFamily: 'var(--font-headline)' }}
             >
-              This is <span className="italic text-gold-primary">not</span> astrology.
+              Meet the version of{' '}
+              <span className="text-gold-primary">yourself</span>
+              {" "}you've been hiding from
             </h1>
 
             {/* Subtitle */}
@@ -37,15 +30,13 @@ export function Hero() {
               className="text-xl sm:text-2xl text-foreground/80 max-w-xl italic"
               style={{ fontFamily: 'var(--font-subheading)' }}
             >
-              Deep personality architecture rooted in psychological science. 
-              Understand the patterns that shape who you are — the shadow and the light.
+              20 questions. One palm scan. AI reveals your archetype, your shadow, your love patterns, and the wound running beneath everything you do.
             </p>
 
-            {/* App Store Buttons */}
+            {/* App Store */}
             <div className="flex flex-wrap gap-3 pt-2">
-              {/* App Store Button */}
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-black/90 transition-colors"
               >
                 <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
@@ -54,20 +45,6 @@ export function Hero() {
                 <div className="text-left">
                   <div className="text-xs leading-none">Download on the</div>
                   <div className="text-lg font-semibold leading-tight">App Store</div>
-                </div>
-              </a>
-
-              {/* Google Play Button */}
-              <a 
-                href="#" 
-                className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-black/90 transition-colors"
-              >
-                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 0 1 0 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.802 8.99l-2.303 2.303-8.635-8.635z"/>
-                </svg>
-                <div className="text-left">
-                  <div className="text-xs leading-none">GET IT ON</div>
-                  <div className="text-lg font-semibold leading-tight">Google Play</div>
                 </div>
               </a>
             </div>

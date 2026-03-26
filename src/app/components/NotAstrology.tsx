@@ -7,12 +7,12 @@ export function NotAstrology() {
       description: "Built on Carl Jung's theory of psychological types, archetypes, and the collective unconscious — the language of the psyche."
     },
     {
-      title: "Myers-Briggs Foundation",
-      description: "MBTI framework enhanced with cognitive function stacks, revealing the hidden architecture of your mind."
+      title: "Cognitive Function Theory",
+      description: "MBTI enhanced with cognitive function stacks — revealing how you process information, make decisions, and perceive the world."
     },
     {
-      title: "Enneagram Integration",
-      description: "Core motivations, shadow patterns, and sacred growth paths mapped to your psychological structure."
+      title: "Astrology & Palmistry",
+      description: "Western, Chinese, and Vedic astrology woven into your archetype narrative. Plus AI-powered palm reading — 7 sections from your hand shape to your fate line."
     }
   ];
 
@@ -38,7 +38,7 @@ export function NotAstrology() {
                 className="text-sm tracking-[0.3em] text-gold-dim uppercase"
                 style={{ fontFamily: 'var(--font-body)' }}
               >
-                The Science
+                The Foundation
               </div>
               <h2 
                 className="text-4xl sm:text-5xl leading-tight"

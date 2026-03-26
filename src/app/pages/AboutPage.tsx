@@ -43,7 +43,7 @@ export function AboutPage() {
               className="text-lg text-foreground/70 text-center mb-16 max-w-2xl mx-auto italic"
               style={{ fontFamily: 'var(--font-subheading)' }}
             >
-              Where psychology meets the sacred in the pursuit of authentic self-knowledge
+              Where psychology meets self-discovery.
             </p>
 
             {/* Main Content Card */}
@@ -75,19 +75,25 @@ export function AboutPage() {
                     style={{ fontFamily: 'var(--font-body)' }}
                   >
                     <p>
-                      Archetype was born from a simple observation: most personality tools offer 
-                      surface-level insights that feel generic and forgettable. We wanted something different — 
-                      something deeper, more nuanced, more true.
+                      Archetype started with a frustration: every personality app gives you a label and moves on.
+                      MBTI tells you four letters. Astrology gives you a sun sign. None of them explain why you
+                      keep repeating the same patterns in relationships, why you shut down under stress the way
+                      you do, or what you&apos;re actually afraid of.
                     </p>
                     <p>
-                      Drawing from Jungian psychology, contemporary research, and thousands of hours of 
-                      human behavior analysis, we've created a framework that reveals not just who you are, 
-                      but why you are. It's the intersection of ancient wisdom and modern psychology, 
-                      designed for those who refuse to settle for simplistic answers.
+                      We built Archetype to go deeper. It combines Jungian psychology, cognitive function theory,
+                      three astrology systems, numerology, and AI-powered palm reading into one unified identity
+                      blueprint — 30+ sections that feel like they were written by someone who&apos;s known you for
+                      years.
                     </p>
                     <p>
-                      This isn't astrology. This isn't a quiz. This is a sacred mirror — refined, precise, 
-                      and unflinchingly honest. A tool for those who seek to know themselves in the depths.
+                      The AI doesn&apos;t guess. It uses your actual answers, your birth data, and your palm to
+                      connect dots across psychology and astrology that no human could synthesize in real time.
+                      Your shadow archetype, your attachment style, your core wound, your love patterns — all
+                      woven together into one coherent picture.
+                    </p>
+                    <p>
+                      Built by Viral Tech Inc. in Montreal, Canada.
                     </p>
                   </div>
                 </div>
@@ -120,9 +126,7 @@ export function AboutPage() {
                   className="text-foreground/70 leading-relaxed"
                   style={{ fontFamily: 'var(--font-body)' }}
                 >
-                  We believe meaningful self-discovery takes time and reflection. 
-                  Our assessments are thorough, thoughtful, and designed to reveal layers 
-                  that quick quizzes miss.
+                  20 questions, not 5. 30+ insights, not a paragraph. We take the time to understand you properly.
                 </p>
               </div>
 
@@ -144,14 +148,14 @@ export function AboutPage() {
                   className="text-2xl mb-3 text-gold-primary"
                   style={{ fontFamily: 'var(--font-headline)' }}
                 >
-                  Science-Backed
+                  Psychology-Grounded
                 </h3>
                 <p 
                   className="text-foreground/70 leading-relaxed"
                   style={{ fontFamily: 'var(--font-body)' }}
                 >
-                  Every insight is grounded in psychological research and validated frameworks. 
-                  We combine the rigor of science with the nuance of human experience.
+                  Every insight connects to established frameworks — Jungian archetypes, MBTI cognitive functions,
+                  attachment theory, and astrological traditions used for centuries.
                 </p>
               </div>
 
@@ -179,8 +183,8 @@ export function AboutPage() {
                   className="text-foreground/70 leading-relaxed"
                   style={{ fontFamily: 'var(--font-body)' }}
                 >
-                  Self-discovery should feel sacred. We've designed every interaction to be 
-                  elegant, intentional, and worthy of the introspection it inspires.
+                  Self-discovery should feel premium, not clinical. Every screen, every word, every animation was
+                  designed to match the weight of what you&apos;re uncovering.
                 </p>
               </div>
 
@@ -208,8 +212,7 @@ export function AboutPage() {
                   className="text-foreground/70 leading-relaxed"
                   style={{ fontFamily: 'var(--font-body)' }}
                 >
-                  Your journey is yours alone. We protect your data with the same care 
-                  we put into our insights, ensuring your discoveries remain private.
+                  Anonymous accounts. No email required. No data sold. Your journey is yours alone.
                 </p>
               </div>
             </div>
