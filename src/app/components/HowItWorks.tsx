@@ -1,3 +1,5 @@
+import { APP_STORE_URL } from '@/app/constants/links';
+
 const steps = [
   {
     number: '01',
@@ -19,7 +21,9 @@ const steps = [
 function AppStoreButton() {
   return (
     <a
-      href="#"
+      href={APP_STORE_URL}
+      target="_blank"
+      rel="noopener noreferrer"
       className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-black/90 transition-colors"
     >
       <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">

@@ -1,4 +1,5 @@
 import phoneImage from '@/assets/heroImagePhone.png';
+import { APP_STORE_URL } from '@/app/constants/links';
 
 export function Hero() {
   return (
@@ -36,7 +37,9 @@ export function Hero() {
             {/* App Store */}
             <div className="flex flex-wrap gap-3 pt-2">
               <a
-                href="#"
+                href={APP_STORE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-black/90 transition-colors"
               >
                 <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
